@@ -1,6 +1,6 @@
 package JavaJunior.JJ_Task4;
 
-import JavaJunior.JJ_Task4.models.Course;
+import JavaJunior.JJ_Task4.models.Courses;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
