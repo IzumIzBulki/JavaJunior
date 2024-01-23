@@ -3,7 +3,7 @@ package JavaJunior.JJ_Task4;
 import java.sql.*;
 import java.util.Random;
 
-public class CreateTableCourse {
+public class CreateTableCourses {
 
     private final static Random random = new Random();
 
