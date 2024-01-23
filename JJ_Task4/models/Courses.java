@@ -5,7 +5,7 @@ import java.util.Random;
 
 @Entity
 @Table(name = "courses")
-public class Course {
+public class Courses {
 
     private static final String[] titles = new String[]{"Линейная алгебра",
             "Топология", "Теоритические основы электротехники",
@@ -21,19 +21,19 @@ public class Course {
     private String title;
     private int duration;
 
-    public static Course create() {
+    public static Courses create() {
         return
-                new Course(titles[random.nextInt(titles.length)],
+                new Courses(titles[random.nextInt(titles.length)],
                         random.nextInt(100) + 1);
     }
 
-    public Course(int id, String title, int duration) {
+    public Courses(int id, String title, int duration) {
         this.id = id;
         this.title = title;
         this.duration = duration;
     }
 
-    public Course(String title, int duration) {
+    public Courses(String title, int duration) {
         this.title = title;
         this.duration = duration;
     }
@@ -72,7 +72,7 @@ public class Course {
 
     @Override
     public String toString() {
-        return "Course{" +
+        return "Courses{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", duration=" + duration +
