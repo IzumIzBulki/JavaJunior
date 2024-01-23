@@ -1,5 +1,10 @@
 package JavaJunior.JJ_Task4;
 
+import JavaJunior.JJ_Task4.models.Course;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
 public class Program {
     public static void main(String[] args) {
 
