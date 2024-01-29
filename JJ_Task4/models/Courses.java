@@ -7,11 +7,11 @@ import java.util.Random;
 @Table(name = "courses")
 public class Courses {
 
-    private static final String[] titles = new String[]{"Линейная алгебра",
-            "Топология", "Теоритические основы электротехники",
-            "Физические основы электротехники", "Теория вероятностей",
-            "Статистика", "Аналитическая алгебра",
-            "Основы экономики", "Сопротивление материалов"};
+    private static final String[] titles = new String[]{"Математика",
+            "Физика", "Алгебра",
+            "Геометрия", "Теория относительности",
+            "Психология", "Астрономия",
+            "Высшая математика", "Искусствоведение"};
 
     private static final Random random = new Random();
 
