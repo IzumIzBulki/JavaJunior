@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Main-Class: JavaJunior.JJ_Task4.task_number_1.main
